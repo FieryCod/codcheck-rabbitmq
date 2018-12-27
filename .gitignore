@@ -1,0 +1,25 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+/target
+/lib
+/classes
+/checkouts
+pom.xml
+logs
+pom.xml.asc
+*.zip
+GPATH
+GRTAGS
+GTAGS
+.DS_Store
+*.jar
+*.class
+.env.development.edn
+.env.test.edn
+/.lein-*
+/.nrepl-port
+*.pem

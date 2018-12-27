@@ -1,0 +1,17 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "IMAGE_NAME",
+        "Update": "true"
+    },
+    "Ports": [{
+            "HostPort": "5672",
+            "ContainerPort": "5672"
+        },
+        {
+            "HostPort": "15672",
+            "ContainerPort": "15672"
+        }
+    ],
+    "Volumes": []
+}
